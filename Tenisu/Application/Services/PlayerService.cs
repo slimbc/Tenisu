@@ -11,7 +11,6 @@ namespace Tenisu.Application.Services
 
         private readonly IPlayerRepository _repository;
 
-        // Injection du repository via le constructeur
         public PlayerService(IPlayerRepository repository)
         {
             _repository = repository;
