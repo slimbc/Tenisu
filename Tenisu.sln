@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenisu", "Tenisu\Tenisu.csproj", "{35D89806-5A21-4FC9-9609-E85FD6CBD6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenisu.TestUnit", "Tenisu.TestUnit\Tenisu.TestUnit.csproj", "{911A9638-5861-4896-8B1B-108E211C45C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35D89806-5A21-4FC9-9609-E85FD6CBD6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D89806-5A21-4FC9-9609-E85FD6CBD6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D89806-5A21-4FC9-9609-E85FD6CBD6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D89806-5A21-4FC9-9609-E85FD6CBD6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911A9638-5861-4896-8B1B-108E211C45C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911A9638-5861-4896-8B1B-108E211C45C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911A9638-5861-4896-8B1B-108E211C45C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911A9638-5861-4896-8B1B-108E211C45C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A14B53-F954-4EC2-8B47-D847B028485C}
+	EndGlobalSection
+EndGlobal

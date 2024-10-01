@@ -1,0 +1,6 @@
+bin/
+obj/
+
+# Dossiers générés par Visual Studio
+.vs/
+*.vscode/

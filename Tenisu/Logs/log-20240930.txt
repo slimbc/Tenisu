@@ -1,0 +1,33 @@
+2024-09-30 23:13:51.133 +02:00 [INF] Now listening on: https://localhost:7167
+2024-09-30 23:13:51.184 +02:00 [INF] Now listening on: http://localhost:5036
+2024-09-30 23:13:51.188 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-30 23:13:51.189 +02:00 [INF] Hosting environment: Development
+2024-09-30 23:13:51.191 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-09-30 23:13:53.470 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-09-30 23:13:53.794 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 341.991ms
+2024-09-30 23:13:53.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-30 23:13:53.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-09-30 23:13:53.867 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 21.0428ms
+2024-09-30 23:13:53.919 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.73ms
+2024-09-30 23:13:53.990 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-09-30 23:13:54.163 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.3281ms
+2024-09-30 23:14:03.871 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/api/Player - null null
+2024-09-30 23:14:03.893 +02:00 [INF] Executing endpoint 'Tenisu.Controllers.PlayerController.GetAllPlayers (Tenisu)'
+2024-09-30 23:14:03.907 +02:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllPlayers() on controller Tenisu.Controllers.PlayerController (Tenisu).
+2024-09-30 23:14:06.292 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tenisu.Domain.Entities.Player, Tenisu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-30 23:14:06.305 +02:00 [INF] Executed action Tenisu.Controllers.PlayerController.GetAllPlayers (Tenisu) in 2390.6616ms
+2024-09-30 23:14:06.307 +02:00 [INF] Executed endpoint 'Tenisu.Controllers.PlayerController.GetAllPlayers (Tenisu)'
+2024-09-30 23:14:06.310 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/api/Player - 200 null application/json; charset=utf-8 2440.2658ms
+2024-09-30 23:21:29.420 +02:00 [INF] Now listening on: https://localhost:7167
+2024-09-30 23:21:29.599 +02:00 [INF] Now listening on: http://localhost:5036
+2024-09-30 23:21:29.641 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-30 23:21:29.651 +02:00 [INF] Hosting environment: Development
+2024-09-30 23:21:29.654 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-09-30 23:21:34.384 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-09-30 23:21:35.572 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 1202.6151ms
+2024-09-30 23:21:35.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-09-30 23:21:35.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-30 23:21:35.843 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 131.1316ms
+2024-09-30 23:21:36.023 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 311.3094ms
+2024-09-30 23:21:36.229 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-09-30 23:21:36.514 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 289.1333ms

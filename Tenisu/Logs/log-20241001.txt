@@ -1,0 +1,169 @@
+2024-10-01 00:22:52.472 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 00:22:52.534 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 00:22:52.537 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 00:22:52.539 +02:00 [INF] Hosting environment: Development
+2024-10-01 00:22:52.540 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 00:22:56.638 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 00:22:57.130 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 499.6751ms
+2024-10-01 00:22:57.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 00:22:57.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 00:22:57.206 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 23.4757ms
+2024-10-01 00:22:57.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.7732ms
+2024-10-01 00:22:57.312 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 00:22:57.500 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 188.5746ms
+2024-10-01 00:29:20.791 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 00:29:20.870 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 00:29:20.875 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 00:29:20.876 +02:00 [INF] Hosting environment: Development
+2024-10-01 00:29:20.878 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 00:29:23.328 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 00:29:23.788 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 469.1155ms
+2024-10-01 00:29:23.832 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 00:29:23.832 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 00:29:23.849 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 17.9414ms
+2024-10-01 00:29:23.931 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.4028ms
+2024-10-01 00:29:23.985 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 00:29:24.225 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 240.7331ms
+2024-10-01 00:30:14.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/api/Player/52 - null null
+2024-10-01 00:30:14.345 +02:00 [INF] Executing endpoint 'Tenisu.Controllers.PlayerController.GetPlayerById (Tenisu)'
+2024-10-01 00:30:14.375 +02:00 [INF] Route matched with {action = "GetPlayerById", controller = "Player"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPlayerById(Int32) on controller Tenisu.Controllers.PlayerController (Tenisu).
+2024-10-01 00:30:19.173 +02:00 [INF] Executing OkObjectResult, writing value of type 'Tenisu.Domain.Entities.Player'.
+2024-10-01 00:30:19.187 +02:00 [INF] Executed action Tenisu.Controllers.PlayerController.GetPlayerById (Tenisu) in 4805.0696ms
+2024-10-01 00:30:19.190 +02:00 [INF] Executed endpoint 'Tenisu.Controllers.PlayerController.GetPlayerById (Tenisu)'
+2024-10-01 00:30:19.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/api/Player/52 - 200 null application/json; charset=utf-8 4874.7063ms
+2024-10-01 00:30:41.485 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/api/Player/55 - null null
+2024-10-01 00:30:41.500 +02:00 [INF] Executing endpoint 'Tenisu.Controllers.PlayerController.GetPlayerById (Tenisu)'
+2024-10-01 00:30:41.501 +02:00 [INF] Route matched with {action = "GetPlayerById", controller = "Player"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPlayerById(Int32) on controller Tenisu.Controllers.PlayerController (Tenisu).
+2024-10-01 00:30:43.115 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-01 00:30:43.125 +02:00 [INF] Executed action Tenisu.Controllers.PlayerController.GetPlayerById (Tenisu) in 1621.6481ms
+2024-10-01 00:30:43.127 +02:00 [INF] Executed endpoint 'Tenisu.Controllers.PlayerController.GetPlayerById (Tenisu)'
+2024-10-01 00:30:43.128 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/api/Player/55 - 404 null application/json; charset=utf-8 1643.799ms
+2024-10-01 00:46:38.072 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 00:46:38.118 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 00:46:38.121 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 00:46:38.123 +02:00 [INF] Hosting environment: Development
+2024-10-01 00:46:38.123 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 00:46:41.277 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 00:46:41.719 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 450.8413ms
+2024-10-01 00:46:41.759 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 00:46:41.759 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 00:46:41.775 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 16.407ms
+2024-10-01 00:46:41.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.5501ms
+2024-10-01 00:46:41.895 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 00:46:42.750 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Tenisu.Controllers.PlayerController.GetStatistics (Tenisu). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 00:46:42.804 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 910.4657ms
+2024-10-01 00:47:18.123 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 00:47:18.147 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 24.351ms
+2024-10-01 00:47:18.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 00:47:18.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 00:47:18.169 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 12.4235ms
+2024-10-01 00:47:18.212 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.1901ms
+2024-10-01 00:47:18.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 00:47:18.854 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Tenisu.Controllers.PlayerController.GetStatistics (Tenisu). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-01 00:47:18.859 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 560.8671ms
+2024-10-01 00:48:24.241 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 00:48:24.405 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 00:48:24.414 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 00:48:24.418 +02:00 [INF] Hosting environment: Development
+2024-10-01 00:48:24.421 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 00:48:28.848 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 00:48:30.052 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 1232.2248ms
+2024-10-01 00:48:30.172 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 00:48:30.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 00:48:30.241 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 70.421ms
+2024-10-01 00:48:30.517 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 344.5445ms
+2024-10-01 00:48:30.671 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 00:48:31.111 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 441.6961ms
+2024-10-01 00:48:51.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/api/Player/statistics - null null
+2024-10-01 00:48:52.005 +02:00 [INF] Executing endpoint 'Tenisu.Controllers.PlayerController.GetStatistics (Tenisu)'
+2024-10-01 00:48:52.022 +02:00 [INF] Route matched with {action = "GetStatistics", controller = "Player"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStatistics() on controller Tenisu.Controllers.PlayerController (Tenisu).
+2024-10-01 00:48:54.713 +02:00 [INF] Executing OkObjectResult, writing value of type 'Tenisu.Domain.DTO.PlayerStatistics'.
+2024-10-01 00:48:54.734 +02:00 [INF] Executed action Tenisu.Controllers.PlayerController.GetStatistics (Tenisu) in 2705.2269ms
+2024-10-01 00:48:54.739 +02:00 [INF] Executed endpoint 'Tenisu.Controllers.PlayerController.GetStatistics (Tenisu)'
+2024-10-01 00:48:54.741 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/api/Player/statistics - 200 null application/json; charset=utf-8 2748.4686ms
+2024-10-01 01:25:22.667 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 01:25:22.767 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 01:25:22.774 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 01:25:22.779 +02:00 [INF] Hosting environment: Development
+2024-10-01 01:25:22.781 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 01:25:28.611 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 01:25:29.583 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 981.6682ms
+2024-10-01 01:25:29.649 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 01:25:29.667 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 01:25:29.761 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 112.7444ms
+2024-10-01 01:25:29.967 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 299.5488ms
+2024-10-01 01:25:30.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 01:25:30.399 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 361.2939ms
+2024-10-01 01:26:35.253 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 01:26:35.301 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 01:26:35.303 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 01:26:35.305 +02:00 [INF] Hosting environment: Development
+2024-10-01 01:26:35.306 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 01:26:37.610 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 01:26:38.177 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 577.801ms
+2024-10-01 01:26:38.231 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 01:26:38.246 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 01:26:38.266 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 35.5212ms
+2024-10-01 01:26:38.347 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.863ms
+2024-10-01 01:26:38.435 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 01:26:38.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.0687ms
+2024-10-01 01:27:00.733 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/api/Player/exception - null null
+2024-10-01 01:27:00.793 +02:00 [INF] Executing endpoint 'Tenisu.Controllers.PlayerController.Get (Tenisu)'
+2024-10-01 01:27:00.880 +02:00 [INF] Route matched with {action = "Get", controller = "Player"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Tenisu.Controllers.PlayerController (Tenisu).
+2024-10-01 01:27:05.251 +02:00 [INF] Executed action Tenisu.Controllers.PlayerController.Get (Tenisu) in 4336.6522ms
+2024-10-01 01:27:06.410 +02:00 [INF] Executed endpoint 'Tenisu.Controllers.PlayerController.Get (Tenisu)'
+2024-10-01 01:27:08.795 +02:00 [ERR] Une erreur non gérée s'est produite
+System.Exception: Une erreur s'est produite dans l'action
+   at Tenisu.Controllers.PlayerController.Get() in C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu\Controllers\PlayerController.cs:line 29
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu\Middleware\ExceptionHandlingMiddleware.cs:line 18
+2024-10-01 01:27:14.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/api/Player/exception - 500 null application/json; charset=utf-8 13444.2378ms
+2024-10-01 02:46:39.014 +02:00 [INF] Now listening on: https://localhost:7167
+2024-10-01 02:46:39.089 +02:00 [INF] Now listening on: http://localhost:5036
+2024-10-01 02:46:39.095 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-01 02:46:39.098 +02:00 [INF] Hosting environment: Development
+2024-10-01 02:46:39.100 +02:00 [INF] Content root path: C:\Users\slim.chaabane\source\repos\Tenisu\Tenisu
+2024-10-01 02:46:43.292 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/index.html - null null
+2024-10-01 02:46:44.295 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/index.html - 200 null text/html;charset=utf-8 1017.495ms
+2024-10-01 02:46:44.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-01 02:46:44.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/_vs/browserLink - null null
+2024-10-01 02:46:44.425 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 39.3981ms
+2024-10-01 02:46:44.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/_vs/browserLink - 200 null text/javascript; charset=UTF-8 200.5897ms
+2024-10-01 02:46:44.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - null null
+2024-10-01 02:46:45.146 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7167/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 439.9558ms
