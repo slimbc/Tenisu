@@ -45,8 +45,8 @@ Ce projet suit les principes de **l'Architecture Propre** qui est divisée en di
 1. **Cloner le dépôt :**
 
    ```bash
-   git clone https://github.com/votre-utilisateur/tenisu-api.git
-   cd tenisu-api
+   git clone https://github.com/slimbc/Tenisu.git
+   cd tenisu
 
 2. Restaurer les packages NuGet :
    dotnet restore
